@@ -1,0 +1,17 @@
+{
+  "config": {
+    "qwen_endpoint": true,
+    "firellava_endpoint": true,
+    "modal_token": true
+  },
+  "qwen_a100_40gb": {
+    "status": "failed",
+    "gpu": "A100-40GB",
+    "error": "HTTP 404: modal-http: app for invoked web endpoint is stopped\n"
+  },
+  "firellava_a10g": {
+    "status": "failed",
+    "gpu": "A10G",
+    "error": "HTTP 404: modal-http: app for invoked web endpoint is stopped\n"
+  }
+}

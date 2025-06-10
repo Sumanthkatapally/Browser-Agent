@@ -1,0 +1,20 @@
+{
+  "config": {
+    "qwen_endpoint": true,
+    "firellava_endpoint": true
+  },
+  "timestamp": 1749495327.6730049,
+  "test_version": "bulletproof_v3.0",
+  "qwen_bulletproof": {
+    "status": "unhealthy",
+    "gpu": "A100-40GB",
+    "health_status": 503,
+    "suggestion": "Service may still be initializing, wait 2-3 minutes"
+  },
+  "firellava_bulletproof": {
+    "status": "unhealthy",
+    "gpu": "A10G",
+    "health_status": 503,
+    "suggestion": "Service may still be initializing, wait 2-3 minutes"
+  }
+}

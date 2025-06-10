@@ -1,0 +1,16 @@
+{
+  "config": {
+    "qwen_endpoint": true,
+    "firellava_endpoint": true,
+    "modal_token": true
+  },
+  "qwen": {
+    "status": "failed",
+    "error": "HTTP 404: modal-http: app for invoked web endpoint is stopped\n",
+    "debug_info": {}
+  },
+  "firellava": {
+    "status": "failed",
+    "error": "HTTP 404: modal-http: app for invoked web endpoint is stopped\n"
+  }
+}
