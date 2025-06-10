@@ -1,13 +1,4 @@
-# Fireworks AI BrowserUse
 
-A powerful AI agent for browser-based interactions powered by Fireworks AI models. This project is inspired by [OpenManus](https://github.com/mannaandpoem/OpenManus/) but leverages Fireworks AI's high-performance vision and language models for enhanced capabilities.
-
-## Overview
-
-Fireworks Manus is an AI agent that can navigate the web, extract content, analyze websites, and provide intelligent feedback based on what it sees. Using Fireworks AI's state-of-the-art models, it can understand web content both visually and textually, making it ideal for tasks like SEO analysis, content research, and web automation.
-
-![Agent Chat Interface](agent-chat.png)
-![Agent Tools](agent-tools.png)
 
 ## Features
 
@@ -29,7 +20,7 @@ Fireworks Manus is an AI agent that can navigate the web, extract content, analy
 1. Clone the repository:
 ```bash
 git clone https://github.com/shubcodes/fireworksai-browseruse.git
-cd fireworksai-browseruse
+cd Browser-agent
 ```
 
 2. Create and activate a virtual environment:
@@ -50,7 +41,7 @@ playwright install
 
 ## Configuration
 
-### Setting up Fireworks AI API Keys
+
 
 1. Create a copy of the example config file:
 ```bash
@@ -59,20 +50,6 @@ cp config/config.example.toml config/config.toml
 
 2. Edit `config/config.toml` to add your Fireworks AI API keys:
 ```toml
-# Global LLM configuration
-[llm]
-model = "accounts/fireworks/models/deepseek-v3"  # Or your preferred Fireworks model
-base_url = "https://api.fireworks.ai/inference/v1"
-api_key = "your-fireworks-api-key"  # Replace with your actual API key
-max_tokens = 4096
-temperature = 0.0
-
-# Vision model configuration
-[llm.vision]
-model = "accounts/fireworks/models/firellava-13b"  # Fireworks vision model
-base_url = "https://api.fireworks.ai/inference/v1"
-api_key = "your-fireworks-api-key"  # Replace with your actual API key
-```
 
 ## Starting the Application
 
@@ -143,34 +120,4 @@ Fireworks Manus consists of:
 - **Python Version**: Make sure you're using a supported Python version (3.11-3.13)
 - **Port Conflicts**: If port 8000 is in use, modify the server configuration to use a different port
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit pull requests or open issues to improve Fireworks Manus.
-
-## License
-
-MIT License
-
-Copyright (c) 2025 manna_and_poem (Original OpenManus Project)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
----
-
-*Fireworks Manus is not affiliated with Fireworks AI or OpenManus. It is an independent project leveraging these technologies.*
